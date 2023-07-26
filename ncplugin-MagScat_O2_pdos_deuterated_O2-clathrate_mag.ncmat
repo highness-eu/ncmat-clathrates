@@ -37,6 +37,8 @@ NCMAT v5
 #   O is 0.25 O 0.75 Og299
 #
 #NCRYSTALMATCFG[temp=1K]
+@CUSTOM_MAGSCAT
+  3.66  1.5  0.4e-3
 @CELL
   cubic 6.78
 @SPACEGROUP
