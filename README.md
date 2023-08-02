@@ -32,6 +32,7 @@ the "@OTHERPHASES" section.
 
 ## How to use
 
-An example is given: 
+An example is given: https://github.com/highness-eu/ncmat-clathrates/blob/main/plot_example.ipynb
+
 Remind that due to the presence of numerous atoms in large unit cell, we
 should add "dcutoff=0.5" in the cfg to avoid the cracking of NCrystal.
