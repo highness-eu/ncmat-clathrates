@@ -10,8 +10,8 @@ NCMAT v5
 # 
 # The first four parameters represent respectively the magnetic scattering cross section
 # (barn), half width at half maximum of the magnetic form factor (1/nm), zero‐field 
-# splitting constant (eV) and the characteristic time of the reorientational motions
-# of oxygen (s). A large value, e.g., 1.e-6 s corresponds to no reorientational effects.
+# splitting constant (eV) and the HWHM parameter (eV) which phenomenologically accounts 
+# for the magnetic peak broadening at elevated temperatures.
 # The last term i is an integer with 1 for magnetic up-scattering,
 # -1 for down-scattering, and 0 for elastic scattering. If i is omitted, the magnetic total
 # (including both inelastic and elastic) scattering is considered.
@@ -42,7 +42,7 @@ NCMAT v5
 #
 #NCRYSTALMATCFG[temp=1K]
 @CUSTOM_MAGSCAT
-  3.66  1.5  0.4e-3  1.e-6
+  3.66  1.5  0.4e-3  0.
 @CELL
   cubic 6.78
 @SPACEGROUP
