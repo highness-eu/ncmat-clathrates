@@ -14,7 +14,7 @@ NCMAT v7
 # Remarks: the PDOS was updated in December 2023 by Omar and Marco.
 #
 @OTHERPHASES
-  0.5980847448023815 ncplugin-MagScat_O2_pdos_hydrogenated_THFO2-clathrate_mag.ncmat;coh_elas=0
+  0.5980847448023815 ncplugin-MagScat_O2_pdos_hydrogenated_THFO2-hydrate_mag.ncmat;coh_elas=0
 @ATOMDB
   X1 is H
   X2 is O

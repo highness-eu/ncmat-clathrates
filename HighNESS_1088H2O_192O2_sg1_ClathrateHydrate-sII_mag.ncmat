@@ -14,7 +14,7 @@ NCMAT v7
 # Remarks: the PDOS was updated in December 2023 by Omar and Marco.
 #
 @OTHERPHASES
-  0.5920333878576338 ncplugin-MagScat_O2_pdos_hydrogenated_O2-clathrate_mag.ncmat;coh_elas=0
+  0.5920333878576338 ncplugin-MagScat_O2_pdos_hydrogenated_O2-hydrate_mag.ncmat;coh_elas=0
 @CELL
   lengths 34.548 !! !!
   angles 90 90 90

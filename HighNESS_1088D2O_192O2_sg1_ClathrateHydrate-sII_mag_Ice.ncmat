@@ -14,7 +14,7 @@ NCMAT v7
 #
 @OTHERPHASES
   0.16241168126355854 HighNESS_Deuterated_Ice_Ih.ncmat
-  0.4743769226374143 ncplugin-MagScat_O2_pdos_deuterated_O2-clathrate_mag.ncmat;coh_elas=0
+  0.4743769226374143 ncplugin-MagScat_O2_pdos_deuterated_O2-hydrate_mag.ncmat;coh_elas=0
 @CELL
   lengths 34.548 !! !!
   angles 90 90 90
