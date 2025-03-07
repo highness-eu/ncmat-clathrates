@@ -1,6 +1,8 @@
 [project]
 name = "ncrystal-plugin-ClathrateHydrateData"
 version = "0.0.1"
+readme = "README.md"
+description = "NCMAT files of various clathrate hydrates (incl. paramagnetic scattering on enclathrated O2)."
 dependencies = [
     "ncrystal-pypluginmgr>=0.0.5",
     "ncrystal-plugin-MagScat@git+https://github.com/highness-eu/ncplugin-MagScat"
