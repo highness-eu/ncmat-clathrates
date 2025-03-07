@@ -12,6 +12,10 @@ NCMAT v7
 #
 # Remarks: the PDOS was updated in December 2023 by Omar and Marco.
 #
+#
+# Ensure manageable load times by increasing default dspacing cutoff:
+#   NCRYSTALMATCFG[ dcutoff=1.5 ]
+#
 @ATOMDB
   X1 is D
   X2 is O

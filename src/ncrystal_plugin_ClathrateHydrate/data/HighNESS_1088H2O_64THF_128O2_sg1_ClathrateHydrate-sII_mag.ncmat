@@ -13,8 +13,12 @@ NCMAT v7
 #
 # Remarks: the PDOS was updated in December 2023 by Omar and Marco.
 #
+#
+# Ensure manageable load times by increasing default dspacing cutoff:
+#   NCRYSTALMATCFG[ dcutoff=1.5 ]
+#
 @OTHERPHASES
-  0.5980847448023815 ncplugin-MagScat_O2_pdos_hydrogenated_THFO2-hydrate_mag.ncmat;coh_elas=0
+  0.5980847448023815 plugins::MagScat/O2_pdos_hydrogenated_THFO2-hydrate_mag.ncmat;coh_elas=0
 @ATOMDB
   X1 is H
   X2 is O
