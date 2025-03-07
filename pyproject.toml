@@ -1,7 +1,10 @@
 [project]
 name = "ncrystal-plugin-ClathrateHydrate"
 version = "0.0.1"
-dependencies = [ "ncrystal-pypluginmgr>=0.0.5" ]
+dependencies = [
+    "ncrystal-pypluginmgr>=0.0.5",
+    "ncrystal-plugin-MagScat@git+https://github.com/highness-eu/ncplugin-MagScat"
+]
 license = {file = "LICENSE"}
 classifiers = [
     "Programming Language :: Python :: 3",
