@@ -1,5 +1,5 @@
 [project]
-name = "ncrystal-plugin-ClathrateHydrate"
+name = "ncrystal-plugin-ClathrateHydrateData"
 version = "0.0.1"
 dependencies = [
     "ncrystal-pypluginmgr>=0.0.5",

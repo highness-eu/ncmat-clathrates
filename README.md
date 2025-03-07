@@ -1,4 +1,4 @@
-# ncrystal-plugin-ClathrateHydrate
+# ncrystal-plugin-ClathrateHydrateData
 
 ## Generation of NCMAT files
 
@@ -67,7 +67,7 @@ dependencies:
 If you store the above contents in a file called `myenv.yml` you can create
 the conda env with `conda env create -f myenv.yml` and afterwards activate it
 with `conda activate myenv`. Then you will have an environment with both
-NCrystal, and the ClathrateHydrate and MagScat plugins.
+NCrystal, and the ClathrateHydrateData and MagScat plugins.
 
 ## How to use
 

@@ -17,7 +17,7 @@ NCMAT v7
 #   NCRYSTALMATCFG[ dcutoff=1.5 ]
 #
 @OTHERPHASES
-  0.16241168126355854 plugins::ClathrateHydrate/HighNESS_Deuterated_Ice_Ih.ncmat
+  0.16241168126355854 plugins::ClathrateHydrateData/HighNESS_Deuterated_Ice_Ih.ncmat
   0.4743769226374143 plugins::MagScat/O2_pdos_deuterated_O2-hydrate_mag.ncmat;coh_elas=0
 @CELL
   lengths 34.548 !! !!

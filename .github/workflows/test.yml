@@ -31,4 +31,4 @@ jobs:
       run: ncrystal-pluginmanager --test ClathrateHydrate
 
     - name: Use explicit plugin file
-      run: nctool -d 'plugins::ClathrateHydrate/HighNESS_1088H2O_64THF_0O2_sg1_ClathrateHydrate-sII.ncmat;dcutoff=5.0'
+      run: nctool -d 'plugins::ClathrateHydrateData/HighNESS_1088H2O_64THF_0O2_sg1_ClathrateHydrate-sII.ncmat;dcutoff=5.0'
