@@ -18,13 +18,17 @@ NCMAT v5
 # If the atom positions are beyond +-1, it will shift -+1 to be
 # in the interval [-1;1].
 #
+# NB: The atom positions are an explicit snapshot of the sII structure (relaxed,
+# with ordered protons and fixed THF orientations), which only has the Fd-3m
+# symmetry (space group 227) on average. The file therefore no longer contains a
+# @SPACEGROUP section, since the claimed symmetry was inconsistent with the
+# provided atom positions (which NCrystal 4.4.7 and later will reject).
+#
 #NCRYSTALMATCFG[temp=1K]
 @ATOMDB
   X1 is O
 @CELL
   cubic 17.13
-@SPACEGROUP
-  227
 @ATOMPOSITIONS
   C    0.650613  0.632750  0.546818
   C    0.650613  0.132750  0.046818
