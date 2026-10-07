@@ -24,9 +24,6 @@ NCMAT v5
 # @SPACEGROUP section, since the claimed symmetry was inconsistent with the
 # provided atom positions (which NCrystal 4.4.7 and later will reject).
 #
-# NB: This file is identical to HighNESS_136D2O_8THF_ClathrateHydrate-sII.ncmat, and is only kept
-# under this (misleading) name for backwards compatibility.
-#
 #NCRYSTALMATCFG[temp=1K]
 @ATOMDB
   X1 is O
